@@ -58,7 +58,7 @@ body{
 #main-doc{
     grid-area: main-doc;
     border: 1px solid lightslategray;
-    padding: 10px;
+    padding: 2em;
     text-align: justify;
 }
 
@@ -79,6 +79,7 @@ nav{
     margin-bottom: 10px;
     padding: 10px 0px 10px 5px;
     color: whitesmoke;
+    font-size: small;
 }
 
 #model{
@@ -153,7 +154,7 @@ nav{
     #main-doc{
         grid-area: main-doc;
         border: 1px solid lightslategray;
-        padding: 50px 10px 50px 10px;
+        padding: 2em;
         text-align: justify;
         background-color: papayawhip;
     }
@@ -174,6 +175,7 @@ nav{
         margin-bottom: 10px;
         padding: 10px 0px 10px 5px;
         color: whitesmoke;
+        font-size: medium;
     }
     
     }
