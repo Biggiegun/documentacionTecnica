@@ -1,0 +1,179 @@
+@media only screen and (min-width:800px){
+body{
+    background-color: whitesmoke;
+    border: 1px solid lightslategray;
+    font-family: Quicksand;
+}
+.main-section #Definitions{
+    font-size: x-large;
+    text-align: center;
+}
+
+.main-section #Developments{
+    font-size: x-large;
+    text-align: center;
+}
+
+.main-section #History_in_America{
+    font-size: x-large;
+    text-align: center;
+}
+
+.main-section #Ingredients{
+    font-size: x-large;
+    text-align: center;
+}
+
+.main-section #Process_and_Approach_to_modeling_and_simulation{
+    font-size: x-large;
+    text-align: center;
+}
+
+.main-section #References{
+    font-size: x-large;
+    text-align: center;
+}
+
+#viaGridContainer{
+    display: grid;
+    grid-template-areas: "navbar main-doc";
+    grid-template-columns: 292px 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px;
+}
+
+#navbar{
+    grid-area: navbar;
+    padding: 50px 10px 445px 10px; 
+    background-image: url("https://media.freestocktextures.com/cache/29/5a/295a135aaa6be7e4debb5b8f816a46d5.jpg");
+    font-size: small;
+}
+
+#topHeader{
+    font-size: x-large;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#main-doc{
+    grid-area: main-doc;
+    border: 1px solid lightslategray;
+    padding: 10px;
+    text-align: justify;
+}
+
+nav{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    position: fixed;
+    margin-top: 0px;
+}
+
+.nav-link{
+    border-top: 1px solid lightslategray;
+    border-bottom: 1px solid lightslategray;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 5px;
+    color: whitesmoke;
+}
+
+#model{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+}
+/*------------------------------------------------------------------------------------------*/
+@media only screen and (max-width:799px){
+    body{
+        border: 1px solid lightslategray;
+        font-family: Quicksand;
+        font-size: small;
+    }
+    
+    .main-section #Definitions{
+        font-size: medium;
+        text-align: center;
+    }
+    
+    .main-section #Developments{
+        font-size: medium;
+        text-align: center;
+    }
+    
+    .main-section #History_in_America{
+        font-size: medium;
+        text-align: center;
+    }
+    
+    .main-section #Ingredients{
+        font-size: medium;
+        text-align: center;
+    }
+    
+    .main-section #Process_and_Approach_to_modeling_and_simulation{
+        font-size: medium;
+        text-align: center;
+    }
+    
+    .main-section #References{
+        font-size: medium;
+        text-align: center;
+    }
+    #viaGridContainer{
+        display: grid;
+        grid-template-areas: "navbar"
+                             "main-doc";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: 0px;
+    }
+    
+    #navbar{
+        padding: 10px 80px 5px 80px; 
+        grid-area: navbar;
+        flex-direction: column;
+        text-align: center;
+        background-image: url("https://media.freestocktextures.com/cache/29/5a/295a135aaa6be7e4debb5b8f816a46d5.jpg");
+        
+    }
+    
+    #topHeader{
+        font-size: x-large;
+        text-align: center;  
+        color: whitesmoke;
+    }
+    
+    #main-doc{
+        grid-area: main-doc;
+        border: 1px solid lightslategray;
+        padding: 50px 10px 50px 10px;
+        text-align: justify;
+        background-color: papayawhip;
+    }
+    
+    nav{
+        display:flex;
+        flex-direction: row;
+        text-align: left;
+        margin-top: 0px;
+    }
+    
+    .nav-link{
+        border-top: 1px  lightslategray;
+        border-bottom: 1px  lightslategray;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px 0px 10px 5px;
+        color: whitesmoke;
+    }
+    
+    }
